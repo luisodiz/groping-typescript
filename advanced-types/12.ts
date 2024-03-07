@@ -45,3 +45,5 @@ function isAdmin(user: User | Admin): user is Admin {
 function isAdminAlternative(user: User | Admin): user is Admin {
   return (user as Admin).role !== undefined
 }
+
+export {}
